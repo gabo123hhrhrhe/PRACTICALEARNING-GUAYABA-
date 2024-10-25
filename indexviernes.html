@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Producto de Guayaba - Beni</title>
+  
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-white text-gray-800 font-sans">
+    <!-- Encabezado -->
+    <header class="bg-green-600 p-6">                     <!-- Equivale a 24 pixeles-->
+        <div class="container mx-auto flex justify-between items-center">
+            <h1 class="text-white text-3xl font-bold">Guayaba de Beni</h1>
+            <nav>
+                <ul class="flex space-x-4">
+                    <li><a href="#nosotros" class="text-white hover:text-gray-200">Nosotros</a></li>
+                    <li><a href="#beneficios" class="text-white hover:text-gray-200">Beneficios</a></li>
+                    <li><a href="#productos" class="text-white hover:text-gray-200">Productos</a></li>
+                    <li><a href="#contacto" class="text-white hover:text-gray-200">Contacto</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Sección de fondo de pantalla -->
+    <section class="bg-cover bg-center h-screen" style="background-image: url('Fondoguayaba.jpeg');">
+        <div class="container mx-auto h-full flex items-center justify-center">
+            <div class="text-center bg-white bg-opacity-75 p-10 rounded-lg shadow-lg">
+                <h2 class="text-5xl font-bold text-green-700 mb-4">Disfruta la Mejor Guayaba de Beni</h2>
+                <p class="text-xl mb-6">Frutas frescas, naturales y llenas de sabor directo del corazón de Beni.</p>
+                <a href="#productos" class="bg-green-600 text-white px-6 py-3 rounded-md hover:bg-green-500">Descubre Nuestros Productos</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sección Nosotros -->
+    <section id="nosotros" class="py-12 bg-gray-100">
+        <div class="container mx-auto text-center">
+            <h3 class="text-3xl font-semibold mb-15">Sobre Nosotros</h3>
+            <p class="text-lg text-gray-900">Somos productores locales en Beni Bolivia, dedicados a ofrecer la mejor calidad de guayabas frescas y saludables, respetando el medio ambiente y apoyando a nuestra comunidad.</p>
+        </div>
+    </section>
+
+    <!-- Sección Beneficios -->
+    <section id="beneficios" class="py-12 bg-orange-200">
+        <div class="container mx-auto text-center">
+            <h3 class="text-3xl font-semibold mb-6">Beneficios de la Guayaba</h3>
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <div class="p-6 bg-white shadow-x1 rounded-full">         <!-- lg para cuadrado y poca sombra -->
+                    <h4 class="text-2xl font-bold text-green-600 mb-2">Natural y Orgánica</h4>
+                    <p class="text-gray-700">Cultivada sin pesticidas ni químicos dañinos.</p>
+                </div>
+                <div class="p-6 bg-white shadow-xl rounded-full">
+                    <h4 class="text-2xl font-bold text-green-600 mb-2">Rica en Nutrientes</h4>
+                    <p class="text-gray-700">Fuente de vitaminas y antioxidantes que fortalecen tu salud.</p>
+                </div>
+                <div class="p-6 bg-white shadow-xl rounded-full">
+                    <h4 class="text-2xl font-bold text-green-600 mb-2">Sabor Inigualable</h4>
+                    <p class="text-gray-700">Disfruta del auténtico sabor de la guayaba fresca de Beni.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+   <!-- Sección Productos -->
+<section id="productos" class="py-12 bg-gray-200">
+    <div class="container mx-auto text-center">
+        <h3 class="text-3xl font-semibold mb-6">Nuestros Productos</h3>
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+            <!-- Producto 1: Guayabas Frescas -->
+            <div class="bg-white shadow-lg rounded-lg overflow-hidden">
+                <img src="Guayabas2.webp" alt="Guayabas Frescas" class="w-full h-48 object-cover">
+                <div class="p-6">
+                    <h4 class="text-2xl font-bold text-green-600 mb-2">Guayabas Frescas</h4>
+                    <p class="text-gray-700">Frutas recién cosechadas, listas para disfrutar.</p>
+                    
+                </div>
+            </div>
+            <!-- Producto 2: Mermelada de Guayaba -->
+            <div class="bg-white shadow-lg rounded-lg overflow-hidden">
+                <img src="Mermelada.jpeg" alt="Mermelada de Guayaba" class="w-full h-48 object-cover">
+                <div class="p-6">
+                    <h4 class="text-2xl font-bold text-green-600 mb-2">Mermelada de Guayaba</h4>
+                    <p class="text-gray-700">Mermelada casera, ideal para tus desayunos.</p>
+                    
+
+                </div>
+            </div>
+            <!-- Producto 3: Jugo de Guayaba -->
+            <div class="bg-white shadow-xl rounded-lg overflow-hidden">
+                <img src="Jugo.webp" alt="Jugo de Guayaba" class="w-full h-48 object-cover">
+                <div class="p-6">
+                    <h4 class="text-2xl font-bold text-green-600 mb-2">Jugo de Guayaba</h4>
+                    <p class="text-gray-700">Refrescante jugo natural de guayaba, perfecto para cualquier ocasión.</p>
+                    <p class="text-gray-800 font-semibold mt-2">Precio: 10 Bs </p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+    <!-- Sección Contacto -->
+    <section id="contacto" class="py-12 bg-gray-100">
+        <div class="container mx-auto text-center">
+            <h3 class="text-3xl font-semibold mb-6">Contáctanos</h3>
+            <form class="max-w-lg mx-auto">
+                <div class="mb-4">
+                    <input type="text" placeholder="Nombre" class="w-full p-3 border border-gray-300 rounded-lg">
+                </div>
+                <div class="mb-4">
+                    <input type="email" placeholder="Correo Electrónico" class="w-full p-3 border border-gray-300 rounded-lg">
+                </div>
+                <div class="mb-4">
+                    <textarea placeholder="Mensaje" class="w-full p-3 border border-gray-300 rounded-lg"></textarea>
+                </div>
+                <button type="submit" class="bg-green-600 text-white px-6 py-3 rounded-md hover:bg-green-900">Enviar Mensaje</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Y por ultimp el pie de página -->
+    <footer class="bg-green-600 p-6 text-center text-white">
+        <p>&copy; 2024 Guayaba de Beni. Todos los derechos reservados.</p>
+    </footer>
+</body>
+</html>
